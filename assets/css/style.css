@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Muli");
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  text-align: left;
+  font-family: Muli;
+  font-family: Montserrat;
+  color: #000;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  float: left;
+  margin: 20px 0 100px 10px;
+}
+h1 span {
+  font-size: 13px;
+  display: block;
+  padding-left: 4px;
+}
+.tabs {
+  min-width: 640px;
+  float: none;
+  list-style: none;
+  position: relative;
+  margin: 80px 0 0 10px;
+  text-align: left;
+}
+.tabs li {
+  float: right;
+  display: block;
+}
+.tabs input[type="radio"] {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+}
+.tabs label {
+  display: block;
+  padding: 14px 21px;
+  border: 2px solid #000;
+  border-bottom: 2px solid #37393d;
+  border-radius: 15px 15px 0 0;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+  margin-left: 4px;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.tabs label:hover {
+  background: #37393d;
+  color: #fff;
+}
+.tabs .tab-content {
+  z-index: 2;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  font-size: 17px;
+  line-height: 25px;
+  position: absolute;
+  top: 53px;
+  left: 0;
+  background: #fff;
+  border: 2px solid #000;
+}
+.tabs [id^="tab"]:checked + label {
+  top: 0;
+  padding-top: 17px;
+  color: #fff;
+  background: #37393d;
+}
+.tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+  display: block;
+}
+.cab{
+  background: #37393d;
+  color: #fff;
+  border-bottom: 2px solid #000;
+  padding: 15px;
+}
+.btnAgents{
+  background: #aaa;
+  border: 1px solid #000;
+  padding: 5px;
+  width: 70px;
+  border-radius: 15px;
+  margin-left: 8px;
+}
+.btnAgents.check{
+  background: #eee;
+}
+p{
+  padding: 15px;
+}

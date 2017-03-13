@@ -108,5 +108,60 @@ h1 span {
   background: #eee;
 }
 p{
+  font-size: 14px;
+}
+#sumary_history{
+  float:right;
+  width: 30%;
+  border-left: solid;
+  padding: 20px;
+}
+
+.resources-idle{
+  float:left;
+  width: 65%;
+  border: 2px solid #000;
+  border-radius: 20px 20px ;
+  margin: 25px 25px 5px ;
   padding: 15px;
+  display: inline-block;
+  background-color: #95D473;
+}
+
+.resources-building{
+  float:left;
+  width: 65%;
+  border: 2px solid #000;
+  border-radius: 20px 20px ;
+  margin: 25px 25px 5px;
+  padding: 15px;
+  display: inline-block;
+  background-color: #F6CC9D;
+}
+
+.circle{
+  width: 60px;
+  height: 60px;
+  border: 2px solid #000;
+  border-radius: 30px 30px ;
+  background-color: grey;
+  display: inline-block;
+}
+
+.contenido{
+    display: inline-block;
+}
+
+.contenido-lineas{
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.cont-resources{
+  display: inline-block;
+  border-left: 2px solid grey;
+  font-size: 12px;
+  padding-left: 10px;
+  font-weight: normal;
+  margin-left: 10px;
 }

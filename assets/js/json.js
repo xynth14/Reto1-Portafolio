@@ -1,0 +1,38 @@
+myAgents = [
+	{
+		"id":1,
+	    "name":"bjstdmngbgr02",
+	    "dominio":"thoughtworks.com",
+	    "ip":"192.168.1.2",
+	    "url":"var/lib/crouise-agent",
+	    "state":"idle",
+	    "permission": "Deny"
+	 },
+	 {
+		"id":2,
+	    "name":"bjstdmngbgr03",
+	    "dominio":"thoughtworks.com",
+	    "ip":"192.168.1.3",
+	    "url":"var/lib/crouise-agent",
+	    "state":"building",
+	    "permission": ""
+	 }, 
+	 {
+		"id":3,
+	    "name":"bjstdmngbgr04",
+	    "dominio":"thoughtworks.com",
+	    "ip":"192.168.1.4",
+	    "url":"var/lib/crouise-agent",
+	    "state":"building",
+	    "permission": ""
+	 }, 
+	 {
+		"id":4,
+	    "name":"bjstdmngbgr05",
+	    "dominio":"thoughtworks.com",
+	    "ip":"192.168.1.5",
+	    "url":"var/lib/crouise-agent",
+	    "state":"idle",
+	    "permission": "Deny"
+	 },  
+ ]

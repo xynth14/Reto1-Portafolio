@@ -9,7 +9,13 @@
 </head>
 
 <body>
-  <h1>Cruice</h1>
+<header>
+	<nav>Signed in as <a href="#"><b>Member</b></a> <b> -> </b> <a href="#"><b>Sing out</b></a></nav>
+</header>
+
+
+<h1>Cruice</h1>
+<form>
 <ul class="tabs" role="tablist">
 
     <li>
@@ -31,9 +37,81 @@
         	</div>
           	<div class="content-tab">
           		<div class="div-col-1">
-          			<a href="#" id="1" data-toggle='confirmation'>Specify Resources</a>
+          			<div class= "resources-idle">
+			            <div class="divCircle">
+			            	<div class = "circle"></div>
+			            </div>
+			            <div class = "contenido">
+			                <div class = "contenido-lineas1">
+			                    <span>bjstdmngbgr02.thoughtworks.com</span>
+			                    <span class = "cont-resources">idle </span>
+			                    <span class = "cont-resources">192.168.1.2 </span>
+			                    <span class = "cont-resources">var/lib/crouise-agent </span>
+			                    <span class ="idR" id="1"></span>
+			                </div>
+			                <div class = "contenido-lineas2">
+			                    <strong>+</strong><a href="#" class="specifyResource" id="1">Specify Resources</a>
+			                    <span class = "cont-resources">Resources:</span>
+			                    <span class = "cont-resources2">ubuntu <span id="btneliminar">X</span></span>
+			                    <span class = "cont-resources2">firefox3 <span id="btneliminar">X</span></span>
+			                    <span class = "cont-resources2">core-duo <span id="btneliminar">X</span></span>
+			        	    </div>
+			            </div>
+			            <div class="divDeny">
+			            	<img src="assets/images/deny-icon.png" class="deny">
+			            	<u>Deny</u>
+			            </div>
+			        </div>
+
+			        <div class= "resources-building">
+			            <div class="divCircle">
+			            	<div class = "circle"></div>
+			            </div>
+			            <div class="contenido">
+			                <div class = "contenido-lineas1">
+			                    <span>bjstdmngbgr02.thoughtworks.com</span>
+			                    <span class = "cont-resources">building </span>
+			                    <span class = "cont-resources">192.168.1.2 </span>
+			                    <span class = "cont-resources">var/lib/crouise-agent </span>
+			                    <span class="idR" id="2"></span>
+			                </div>
+			                <div class = "contenido-lineas2">
+			                    <a href="#" class="specifyResource" id="2">+ Specify Resources</a>
+			                    <span class = "cont-resources">Resources:</span>
+			                    <span class = "cont-resources2">ubuntu <span id="btneliminar">X</span></span>
+			                    <span class = "cont-resources2">firefox3 <span id="btneliminar">X</span></span>
+			                    <span class = "cont-resources2">core-duo <span id="btneliminar">X</span></span>
+			        	    </div>
+			            </div>
+			            <div class="divDeny">
+			            	<img src="assets/images/deny-icon.png" class="deny">
+			            	<u>Deny</u>
+			            </div>
+			        </div>
           		</div>
-          		<div class="div-col-2"></div>
+          		<div class="div-col-2">
+          			
+					<div class = "sumary_history">
+		              <h4>Summary</h4>
+		              <hr>
+		              <p>building   2</p>
+		              <p>idle       2</p><br>
+		              <h4>History</h4>
+		              <hr>
+		              <p>bjstdmngbgr02/Aceptance_test</p>
+		              <p>bjstdmngbgr02/Aceptance_test</p>
+		              <p>bjstdmngbgr02/Aceptance_test</p>
+		              <p>bjstdmngbgr02/Aceptance_test</p>
+		              <p>bjstdmngbgr02/Aceptance_test</p>
+		              <p>bjstdmngbgr02/Aceptance_test</p>
+		              <p>bjstdmngbgr02/Aceptance_test</p>
+		              <p>bjstdmngbgr02/Aceptance_test</p>
+		              <p>bjstdmngbgr02/Aceptance_test</p>
+		              <p>bjstdmngbgr02/Aceptance_test</p>
+
+		          </div>
+
+          		</div>
           	</div>
         </div>
     </li>
@@ -55,6 +133,10 @@
         </div>
     </li>
 </ul>
-  
+</form>
+
+<footer>Copyrigth: Thoughtworks Inc.</footer>
+
+<script src="assets/js/js.js"></script>
 </body>
 </html>

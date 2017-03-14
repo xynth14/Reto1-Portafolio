@@ -50,8 +50,8 @@ h1 span {
   border: 2px solid #000;
   border-bottom: 2px solid #37393d;
   border-radius: 15px 15px 0 0;
-  font-size: 16px;
-  font-weight: normal;
+  font-size: 13px;
+  font-weight: bold;
   text-transform: uppercase;
   background: #fff;
   cursor: pointer;
@@ -72,10 +72,10 @@ h1 span {
   display: none;
   overflow: hidden;
   width: 100%;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 25px;
   position: absolute;
-  top: 53px;
+  top: 51px;
   left: 0;
   background: #fff;
   border: 2px solid #000;
@@ -107,22 +107,18 @@ h1 span {
 .btnAgents.check{
   background: #eee;
 }
-p{
-  padding: 15px;
-}
+
 .content-tab{
   width: 100%;
 }
 .div-col-1{
-  min-width: 64%;
+  min-width: 75%;
   padding: 15px;
-  background: #ccc;
   display: inline-block;
+  vertical-align: top;
 }
 .div-col-2{
-  min-width: 35%;
-  padding: 15px;
-  background: #ff0000;
+  min-width: 24%;
   display: inline-block;
 }
 @media only screen and (max-width: 768px) {
@@ -131,4 +127,111 @@ p{
         width: 100%;
         display: block;
     }
+}
+
+.resources-idle{
+  border: 2px solid #000;
+  border-radius: 20px 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #95D473;
+  height: auto;
+  margin-bottom: 15px;
+}
+.resources-building{
+  border: 2px solid #000;
+  border-radius: 20px 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #FAE679;
+  height: auto;
+  margin-bottom: 15px;
+}
+.divCircle{  
+  margin: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 8%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: grey;
+}
+.sumary_history{
+  border-left: 2px #37393d solid;
+  padding: 20px;
+}
+.contenido{
+  vertical-align: middle;
+  width: 81%;
+  display: inline-block;
+}
+
+.contenido-lineas1{
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.contenido-lineas2{
+  font-size: 11px;
+  padding-left: 10px;
+}
+.cont-resources{
+  border-left: 2px solid grey;
+  font-size: 13px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.cont-resources2{
+  font-size: 11px;
+  padding-right: 8px;
+  margin-left: 8px;
+}
+.divDeny{
+  margin: auto;
+  padding-left: 10px;
+  width: 9%;
+  height: auto;
+  vertical-align: bottom;
+  display: inline-block;
+  font-weight: bold;
+}
+#btneliminar{
+  border-radius: 30%;
+  border: 2px solid grey;
+  color: grey;
+  font-weight: bold;
+  padding: 1px 4px;
+  cursor: pointer;
+}
+.deny{
+  vertical-align: bottom;
+  width: 15px;
+  display: inline-block;
+  float: left;
+  margin-top: 5px;
+  margin-right: 5px
+}
+nav{
+  font-size: 12px;
+  text-align: right;
+}
+strong{
+  font-size: 18px;
+  margin-right: 5px;
+}
+a{
+  color: black;
+  font-size: 12px;
+}
+footer{
+  position: absolute;
+  bottom: 30px;
+  margin-left: 15px;
+  font-size: 12px;
 }

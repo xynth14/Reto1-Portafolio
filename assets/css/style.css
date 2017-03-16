@@ -128,24 +128,19 @@ h1 span {
         display: block;
     }
 }
-
-.resources-idle{
+.resources{
   border: 2px solid #000;
   border-radius: 20px 20px;
   width: 100%;
   padding: 10px;
-  background-color: #95D473;
   height: auto;
   margin-bottom: 15px;
 }
-.resources-building{
-  border: 2px solid #000;
-  border-radius: 20px 20px;
-  width: 100%;
-  padding: 10px;
+.idle{
+  background-color: #95D473;
+}
+.building{
   background-color: #FAE679;
-  height: auto;
-  margin-bottom: 15px;
 }
 .divCircle{  
   margin: auto;
